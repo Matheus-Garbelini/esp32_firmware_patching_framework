@@ -1,0 +1,10 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "USERPatcher",
+			"type": "shell",
+			"command": "python3 UserPatcher.py",
+		}
+	]
+}
