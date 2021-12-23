@@ -50,6 +50,8 @@ You can either manually install [Python 3](https://www.python.org/ftp/python/3.8
 requirements.bat
 ```
 
+If Windows store opens when you type python on the command prompt, disable python in "App execution aliases" in settings.
+
 
 
 ### Quick Start Template Project
@@ -94,7 +96,7 @@ First time building the firmware will take some time. A successful build output 
 
 ```bash
 # On Linux/Ubuntu bash
-./firmware.py flash /dev/ttyUSB0 # Change ttyUSB0 to match your port name
+./firmware.py flash /dev/ttyUSB0 # Change /dev/ttyUSB0 to match your port name
 # On Windows 7/10 command prompt
 python firmware.py flash COM4 # Change COM4 to match your port name
 ```
@@ -128,10 +130,4 @@ python firmware.py flash COM4 # Change COM4 to match your port name
 #### GDB & Ghidra Live Synchronization
 
 *TODO*
-
-
-
-
-
-
 
