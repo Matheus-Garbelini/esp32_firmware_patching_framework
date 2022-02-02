@@ -1,9 +1,9 @@
 # ESP32 Firmware Patching Framework
+> A streamlined framework  for patching proprietary ESP32 libraries from Xtensa ELF file or user's code.
 
-> Streamlined methods to patch proprietary ESP32 libraries from user's code or Xtensa ELF file.
->
-> TODO: Add more documentation on the patching process (UserPatch.py and rompatcher.h/s)
-
+<p align="center">
+<img src="docs/esp32_patching_framework.svg" alt="mode_master" width="600" height="auto" />
+</p>
 
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
