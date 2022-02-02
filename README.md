@@ -1,10 +1,9 @@
 # ESP32 Firmware Patching Framework
-> A streamlined framework  for patching proprietary ESP32 libraries from Xtensa ELF file or user's code.
+> A streamlined framework  to assist in patching proprietary ESP32 libraries from Xtensa ELF file or user's code.
 
 <p align="center">
-<img src="docs/esp32_patching_framework.svg" alt="mode_master" width="600" height="auto" />
+<img src="docs/esp32_patching_framework.svg" alt="mode_master" width="800" height="auto" />
 </p>
-
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -84,8 +83,9 @@ python firmware.py build
 First time building the firmware will take some time. A successful build output should give you the following output:
 
 <p align="center">
-<img src="docs/patch_output.png" alt="patch_output" width="700" height="auto" />
+<img src="docs/patch_output.png" alt="patch_output" width="800" height="auto" />
 </p>
+
 
 
 
