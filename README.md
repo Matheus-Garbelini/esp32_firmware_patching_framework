@@ -63,7 +63,7 @@ If Windows store opens when you type python on the command prompt, disable pytho
 
 #### Build Patched Firmware
 
-The provided **`firmware.py`** script automates the firmware build process. Under the hood, it calls [Platformio Framework](https://docs.platformio.org/en/latest/platforms/espressif32.html) to:
+The provided **`firmware.py`** automates the firmware building & patching process. Under the hood, it calls [Platformio Framework](https://docs.platformio.org/en/latest/platforms/espressif32.html) to:
 
 ***1.*** Download Xtensa toolchain, ESP-IDF SDK and openocd debugger. This can be configured on `platformio.ini`;
 
